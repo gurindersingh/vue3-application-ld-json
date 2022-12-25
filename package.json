@@ -1,0 +1,39 @@
+{
+  "name": "@gurinder/application-ld-json",
+  "version": "1.0.0",
+  "description": "Create application/ld+json script tag",
+  "files": [
+    "dist"
+  ],
+  "main": "./dist/application-ld-json-lib.umd.js",
+  "module": "./dist/application-ld-json-lib.es.js",
+  "exports": {
+    ".": {
+      "import": "./dist/application-ld-json-lib.es.js",
+      "require": "./dist/application-ld-json-lib.umd.js"
+    }
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "test": "vitest --dom"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://git"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.0.0",
+    "@vue/test-utils": "^2.2.6",
+    "happy-dom": "^8.1.1",
+    "vite": "^4.0.3",
+    "vitest": "^0.26.2",
+    "vue": "^3.2.45"
+  },
+  "keywords": [
+    "SEO",
+    "application/ld+json"
+  ],
+  "author": "Gurinder Chauhan <me@gurinder.ca>",
+  "license": "MIT"
+}
