@@ -5,12 +5,12 @@
   "files": [
     "dist"
   ],
-  "main": "./dist/application-ld-json-lib.umd.js",
-  "module": "./dist/application-ld-json-lib.es.js",
+  "main": "dist/application-ld-json-lib.umd.js",
+  "module": "dist/application-ld-json-lib.es.js",
   "exports": {
     ".": {
-      "import": "./dist/application-ld-json-lib.es.js",
-      "require": "./dist/application-ld-json-lib.umd.js"
+      "import": "dist/application-ld-json-lib.es.js",
+      "require": "dist/application-ld-json-lib.umd.js"
     }
   },
   "scripts": {
