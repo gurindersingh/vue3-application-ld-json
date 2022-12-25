@@ -21,7 +21,7 @@ export default defineConfig({
         lib: {
             entry: resolve(rootPath, 'src/index.js'),
             name: 'ApplicationLdJsonLib',
-            fileName: (format) => `application-ld-json.${format}.js`,
+            fileName: (format) => `application-ld-json-lib.${format}.js`,
         },
         rollupOptions: {
             // make sure to externalize deps that shouldn't be bundled
