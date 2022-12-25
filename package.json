@@ -1,6 +1,6 @@
 {
   "name": "@gurinder/vue3-application-ld-json",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Create application/ld+json script tag",
   "files": [
     "dist"
