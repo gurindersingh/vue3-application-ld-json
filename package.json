@@ -16,7 +16,8 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "test": "vitest --dom"
+    "test": "vitest --dom",
+    "publish-test": "vitest --dom --run"
   },
   "repository": {
     "type": "git",
@@ -35,5 +36,8 @@
     "application/ld+json"
   ],
   "author": "Gurinder Chauhan <me@gurinder.ca>",
-  "license": "MIT"
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  }
 }
