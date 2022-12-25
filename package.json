@@ -8,6 +8,7 @@
   ],
   "main": "dist/build.es.js",
   "module": "dist/build.es.js",
+  "type": "module",
   "exports": {
     ".": {
       "import": "./dist/build.es.js",
