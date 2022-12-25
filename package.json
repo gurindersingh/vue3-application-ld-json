@@ -1,16 +1,18 @@
 {
   "name": "@gurinder/vue3-application-ld-json",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "Create application/ld+json script tag",
   "files": [
+    "README.md",
     "dist"
   ],
-  "main": "dist/application-ld-json-lib.umd.js",
+  "main": "dist/application-ld-json-lib.es.js",
   "module": "dist/application-ld-json-lib.es.js",
-  "type": "module",
   "exports": {
-    "import": "./dist/application-ld-json-lib.es.js",
-    "require": "./dist/application-ld-json-lib.umd.js"
+    ".": {
+      "import": "./dist/application-ld-json-lib.es.js",
+      "require": "./dist/application-ld-json-lib.umd.js"
+    }
   },
   "scripts": {
     "dev": "vite",
