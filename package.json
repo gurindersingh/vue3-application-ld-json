@@ -20,7 +20,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "http://git"
+    "url": "https://github.com/gurindersingh/vue3-application-ld-json"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^4.0.0",
