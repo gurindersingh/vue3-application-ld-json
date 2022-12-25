@@ -17,8 +17,7 @@
     "dev": "vite",
     "build": "vite build",
     "test": "vitest --dom",
-    "publish-test": "vitest --dom --run",
-    "publish": "np --test-script=publish-test"
+    "publish-test": "vitest --dom --run"
   },
   "repository": {
     "type": "git",
